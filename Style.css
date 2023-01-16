@@ -1,0 +1,80 @@
+body{
+    background-color: rgb(174, 221, 240);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    text-align: center;
+    margin-right: 150px;
+    margin-left: 150px;
+    color: rgb(32, 32, 32);
+}
+head{text-align: left;
+}
+header{
+    text-align: left;
+    margin-bottom: 20px;
+    margin-right: 50px;
+}
+footer{
+    text-align: left;
+    color: rgb(36, 32, 32);
+    font-size: 10px;
+    margin-left: -270px;
+}
+.wave{
+    font-size: 40px;
+    margin-bottom: 40px;
+    margin-top: 30px;
+    color: rgb(31, 31, 31);
+    -webkit-box-reflect: below-20px linear-gradient(transparent,rgba(0,0,0,3));
+}
+.wave span{
+    font-family: "georgia", cursive;
+    display: inline-block;
+    animation: wave-anim 1s infinite;
+    animation-delay: calc(0.1s * var(--item));
+}
+@keyframes wave-anim{
+    0%,
+    40%,
+    100% {
+        transform: translateY(0);
+    }
+    20% {
+        transform: translateY(-5px);
+    }
+}
+h1{
+    text-shadow: 3px 3px 1px rgb(255, 253, 253);
+    text-align: center;
+    margin-top: 10px;
+}
+p{
+    margin-left: 210px;
+    margin-right: 210px;
+}
+thead{text-align: center;}
+table{
+    border-radius: 5px;
+    margin-left: 100px;
+    max-width: max-content;
+}
+li{
+    text-align: left;
+    margin-right: 10px;
+    margin-left: 10px;
+}
+img{
+    border-radius: 10%;
+    box-shadow: 4px 7px 4px rgb(43, 41, 41);
+}
+a:link, a:visited {
+    background-color: #649df1;
+    color: rgb(29, 28, 28);
+    padding: 4px 5px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+}
+a:hover, a:active {
+    background-color: rgb(253, 59, 59);
+}
+  
